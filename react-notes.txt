@@ -213,3 +213,10 @@ programming capabilities        tasks               process of
         |
         |
         |
+
+
+
+container-fluid - full-width container 
+d-flex - stack children vertically 
+vh-100 = 100% viewport 
+p-0 remove detault padding 

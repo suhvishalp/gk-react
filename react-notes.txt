@@ -1,0 +1,215 @@
+Dev environment:
+
+    1. install nodejs 
+    2. VS Code 
+    3. 
+
+
+Build UI for web and mobile applications
+
+        HTML 
+            - 'what' content you want to place on the browser
+            - to define the structure of web page
+            - create headings, insert images,  paragraphs, buttons, forms, hyperlinks etc.
+
+        CSS - cascading style sheet 
+            - 'how' the content should appear on the web page
+            - i.e. color, background, border, layout etc.
+            - to define the style rules for the web pages
+
+        JavaScript  
+            - scripting language 
+            - provides programming capabilities to the web pages
+            - JS is an interpreted language 
+            - js code is executed inside the browser using "JS Engine" 
+                - chrome - V8 
+                - IE - Chakra
+                - firefox - spidermonkey
+
+            - use javascript for 
+                - form validation
+                - business logic 
+                - ajax calls / http requests / api call
+                - event handling
+
+            - javascript was introduced in 1997 
+                - 1997  - submitted to ECMA for standardization
+                - since then, ECMA keeps publishing differents Standards/ 'specifications' for javascript
+                - IMP: every browser implements these 'specifications' which is called 'ECMAScript'
+
+            - ES1   - 1997
+            - ES2  - 1998
+            - ES3   - 1999
+            - ES5   - 2009 *** - legacy javascript
+
+            - ES6 - 2015 : EcmaSCript 2015  *** modern javascript
+                - this version / specifacation introduced several new featuers
+                - i.e. arrow fuctions
+                - module system
+                - async / await 
+                - classes and objects 
+                - promises
+                - etc.
+            - ES7
+            - ES 20
+            - ECMAScript 2024
+
+
+            var a = 10; 
+
+            a = 'welcome'      
+
+            a = true  
+
+        TypeScript  
+            - it is typesafe language 
+            - it is object oriented 
+            - it is compiled language 
+
+        Bootstrap / SemanticUI 
+            - bootstrap is a html+css+js library used to build the responsive UI
+
+
+
+    Languages                 libraries               frameworks 
+
+    JavaScript                JQuery,                   Angular, Vue
+    Typescript                React                     Next.js
+                              D3.js                     Nest.js
+
+    Java                     utils, lang, io etc.       Spring
+
+    Python                   -----                      Django
+
+    C#/VB                   ----                        .Net
+
+    Ruby 
+
+    Go 
+
+    C/C++
+
+        |                           |                       |
+language provides              simplifies the       standardize the 
+programming capabilities        tasks               process of 
+                                                    developing applicaiton
+
+
+
+
+
+
+
+
+
+
+        React
+            - JS library 
+
+        Angular     
+            - JS Framework 
+
+        Vue
+            - JS Framework 
+
+        
+        Mobile application development 
+
+            a. native app development
+                - android apps are developed using java / kotlin
+                - ios apps are developed in objective C / swift
+
+            b. hybrid app development 
+                - ionic 
+
+            c. cross-platform app development 
+                - react native 
+                - flutter 
+
+
+        React Native 
+        ---------------------
+            - JS library used to develop UI for mobile applications 
+            - used to develop android as well as ios applications
+
+
+
+    ReactJS / React / React.js - Key Concepts 
+    --------------------------------------------
+        - react is a javascript library used to develop UI for web applications
+
+
+            1. react library 
+                - used to create component 
+
+            2. reactDOM library 
+                - is used to render the component on the browser
+
+            3. Component 
+                - every react app is a collection of several "Component"
+                - in React, a component represents a block / piece / patch on the website 
+                - 'component' renderes a particular patch/block on the website 
+                - IMP: in React, a component is created using javascript function, and it describes the UI using JSX
+
+                    
+                    function Course() {
+                        return (
+                            <div className='course'>
+                                <h1>Course: React</h1>
+                                <h3>Build UI for Websites</h3>
+                                <p>Some description of the course, ReactJs is a js library...</p>
+                                <p>Start Date: July 2, 2025</p>
+                                <p>Trainer: Vishal</p>
+                                <p>Fees: AED 200.00 </p>
+                                <button>Enroll</button>
+                            </div>
+                        )
+                    }
+
+            4. JSX
+                - javascript extension
+                - jsx looks very similar to html, which is used to describe the UI in react component 
+
+            
+            5. Babel
+                - JSX code is converted to its equivalant JS code
+
+        
+            6. Webpack 
+                - it is used for bundling 
+                - 
+
+
+
+                    App
+                     |
+    ---------------------------------------------------
+    NavBar          LeftNavigation          CourseList
+                                                |
+                                    ---------------------------------
+                                    Course          Course      Course
+
+
+
+    React app directory structure 
+    -------------------------------
+
+        |- node_modules
+        |   |-> stores all the dependencies i..e react, react-dom, bootstrap, etc
+        |
+        |
+        |- public
+        |   |-> index.html - this file is served first when the app is loaded
+        |
+        |- src
+        |   |->stores all the source code files i.e. js, css, etc.
+        |   |->App.js
+        |   |   |-> represents the root component 
+        |   |
+        |   |->index.js
+        |   |   |-> starting point for react application
+        |
+        |
+        |
+        |
+        |

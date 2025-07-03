@@ -218,3 +218,13 @@ programming capabilities        tasks               process of
     State: 
         - a 'state' is a special object in component which is used to store data
         - as soon as the data in the state object changes, the component automatically re-renders 
+
+        import {useState} from 'react'
+        function CourseList(){
+
+                   const [data, setData] = useState(0);
+
+        }
+
+    - props 
+        - an object used to pass data from parent component to child 

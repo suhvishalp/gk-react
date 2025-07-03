@@ -215,8 +215,6 @@ programming capabilities        tasks               process of
         |
 
 
-
-container-fluid - full-width container 
-d-flex - stack children vertically 
-vh-100 = 100% viewport 
-p-0 remove detault padding 
+    State: 
+        - a 'state' is a special object in component which is used to store data
+        - as soon as the data in the state object changes, the component automatically re-renders 
